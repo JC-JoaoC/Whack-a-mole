@@ -3,7 +3,7 @@
 <br>
 
 <p align="center">
-  <img alt="Projeto de Web jogo" src=".github/image.png" width="100%">
+  <img alt="Projeto de Web jogo" src="./projeto.jpeg" width="100%">
 </p>
 
 ## 💻 Projeto
