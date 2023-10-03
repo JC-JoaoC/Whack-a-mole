@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Game click</title>
+  <title>Whack-a-mole</title>
 
   <!-- CSS -->
 
@@ -21,14 +21,15 @@
 <body>
   <div class="container">
     <div class="menu">
-      <div class="tempo">
-        <h2 style="color: red;">Tempo restante</h2>
-        <h2 id="time">0</h2>
-      </div>
-        <div class="ponto">
-        <h2 style="color: red;">Seus pontos</h2>
+      <h1>Whack-a-mole!</h1>
+      <div class="ponto">
+        <h2 style="color: rgb(7, 7, 7);">Pontos</h2>
         <h2 id="score">0</h2>
-        </div>
+      </div>
+      <div class="tempo">
+        <h2 style="color: rgb(15, 15, 15);">Tempo</h2>
+        <h2 id="time-left">0</h2>
+      </div>
     </div>
     <div class="painel">
       <!-- .painel-row>.square[id='0']*3 -->
@@ -47,6 +48,12 @@
         <div class="square" id="8"></div>
         <div class="square" id="9"></div>
       </div>
+    </div>
+    <div class="start">
+      <button onClick="init()">Start!</button>
+      <footer><br>
+        <p>Feito com 🧠 pelo <u>@JC</u></p>
+      </footer>
     </div>
   </div>
   <!-- Js -->
