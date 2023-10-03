@@ -10,7 +10,7 @@
 
 Jogo Whack-a-mole 
 
-- [Acesse o projeto finalizado, online](https:/JC-JoaoC.github.io/Whack-a-mole)
+- [Acesse o projeto finalizado](https:/JC-JoaoC.github.io/Whack-a-mole)
 
 ## 🚀 Tecnologias
 
